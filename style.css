@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #FC805C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70vw;
+  height: 72vh;
+  background-color: #fff;
+  border-radius: 3.6vw;
+  padding: 2.5vw 2.5vw 2.5vw 8.5vw;
+  position: relative;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+p {
+  color: #929292;
+}
+
+.container-left {
+  margin-top: 13vh;
+  width: 20vw;
+  margin-bottom: 8%;
+}
+
+.right-container {
+  position: absolute;
+  right: 2.5vw;
+  top: 2.5vw;
+  bottom: 2.5vw;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+input {
+  border-bottom: 1.5px solid rgba(126, 126, 126, 0.6);
+  padding: 0 0.8vw;
+  height: 4vh;
+}
+
+
+.form-inputs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8vh;
+  margin-bottom: 3.2vh;
+}
+
+button {
+  width: 64%;
+  height: 4.5vh;
+  border-radius: 1.5vh;
+  background-color: #BFBBBC ;
+  color: white;
+  transition: linear 0.25s;
+}
+
+button:hover {
+  background-color: #FC805C;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #BFBBBC;
+  border: 2px solid black;
+  transition: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: black;
+  transition: linear 0.1s;
+}
+
+a:hover {
+  color: #FC805C;
+}
+
+a:active{
+  color: #7565FB;
+}
